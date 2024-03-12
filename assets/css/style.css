@@ -15,8 +15,10 @@ body    {
 }
 
 .synopsis {
-    font-size: 20px;
-    position: absolute; 
+    font-size: 22px;
+    font-style: italic;
+    position: absolute;
+    left: 50px; 
     width: 700px;
 }
 
@@ -28,4 +30,11 @@ body    {
     width: 400px;
     
     position: absolute; top: 250px;
+}
+.text {
+    font-size: 30px;
+    font-style: italic;
+    position: relative;
+    top: 200px;
+    left: 20px;
 }
