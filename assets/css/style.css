@@ -1,40 +1,87 @@
-body    {
-    background-color: #ebe1c6fd;
+/* background-color: whitesmoke; */
+
+body{
+    background-color: #adadad;
 }
 
-.title  {
-    color: #663202;
-    background-color: #cc9a59;
+.content{
+    max-width: 70%;
+    align-items: center;
+    margin: auto;
 }
 
-#title  {
-    height: 80px;
-    width: 500px;
-    text-align: center;
+header{
+    padding: 10px;
     font-size: 30px;
-}
-
-.synopsis {
-    font-size: 22px;
-    font-style: italic;
-    position: absolute;
-    left: 50px; 
-    width: 700px;
-}
-
-.banner {
-    color: #663202;
-    background-color: #cc9a59;
-    font-size: 15px;
-    height: 50px;
-    width: 400px;
+    color: whitesmoke;
+    background-color: #01254ee5;border: 1px solid black;
     
-    position: absolute; top: 250px;
 }
-.text {
+
+label{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 3%;
     font-size: 30px;
-    font-style: italic;
-    position: relative;
-    top: 200px;
-    left: 20px;
+    background-color: whitesmoke;
+}
+
+nav{
+    background-color: #01254ee5;
+    color: whitesmoke;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+
+
+.A{
+    line-height: 2px;
+}
+
+.Intro {
+    height: 250px;
+}
+
+.about{
+    background-color: whitesmoke;
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 3px;
+    height: 900px;
+}
+
+#abouttxt{
+    width: 40%;
+
+}
+
+#pic1{
+    max-width: 40%;
+    position:relative;
+    left: 50%;
+    bottom: 275px;
+    border: 3px solid black;
+}
+
+
+a:link, a:visited{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+@media screen and (max-width:430px){
+    #pic1{
+        max-width: 30%;
+    position:relative;
+    left: 60%;
+    bottom: 500px;
+    border: 2px solid black;
+    }
 }
