@@ -2,7 +2,8 @@
 
 ## Description
 
-    I wanted to create a portfolio to make it easier for future employers and co-workers to see my work and experience.
+ I wanted to create a portfolio to make it easier for
+future employers and co-workers to see my work and experience.
 
     
 
@@ -10,7 +11,7 @@
 
 
 
-  click on the link -> https://ashe-eg.github.io/Alek.Portfolio/
+  Click on the link -> https://ashe-eg.github.io/Alek.Portfolio/
 
 
 
