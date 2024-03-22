@@ -1,14 +1,7 @@
-/* background-color: whitesmoke; */
-
 body{
     background-color: #adadad;
 }
 
-.content{
-    max-width: 80%;
-    align-items: center;
-    margin: auto;
-}
 
 header{
     padding: 10px;
@@ -46,7 +39,17 @@ h3{
     padding: 10px;
     height: 100px;
 }
+
+h4{
+    font-size: 30px;
+}
 /* --------------------------------------------- */
+
+.content{
+    max-width: 80%;
+    align-items: center;
+    margin: auto;
+}
 
 .A{
     line-height: 2px;
@@ -61,7 +64,7 @@ h3{
     font-size: 30px;
     border: 3px solid black;
     padding: 3px;
-    height: 900px;
+    height: 600px;
     
 }
 
@@ -76,6 +79,7 @@ h3{
     height: 1900px;
     top: 30px;
 }
+
 
 /* --------------------------------------------- */
 
@@ -135,6 +139,9 @@ h3{
     left: 765px;
     border: 4px solid black;
 }
+
+#contact{
+}
 /* --------------------------------------------- */
 
 a:link, a:visited{
@@ -149,11 +156,80 @@ a:hover{
 /* ---------------------------------------------- */
 
 @media screen and (max-width:430px){
-    #pic1{
-        max-width: 30%;
-    position:relative;
-    left: 60%;
-    bottom: 500px;
-    border: 2px solid black;
+    .Intro{
+        position: relative;
+        left: 15px;
+        width: 932px;
+        height: 300px;
+    }
+
+    h1{
+        font-size: 100px;
+        text-align: center;
+    }
+
+    .A{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    label{
+        position: relative;
+        left: -28px;
+        width: 955px;
+        height: 130px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .about{
+        width: 900px;
+    }
+
+    .projects{
+        width: 845px;
+        height: 1700px;
+    }
+
+    #pic2{
+        position: absolute;
+        left: 80px;
+        top: 200px;
+        height: 700px;
+        max-width: 80%;
+
+    }
+
+    #pic3{
+        position: absolute;
+        left: 80px;
+        top: 1000px;
+        max-width: 35%;
+        max-height: 340px;
+    }
+
+    #pic4{
+        position: absolute;
+        left: 486px;
+        top: 1000px;
+        max-width: 35%;
+        max-height: 340px;
+    }
+
+    #pic5{
+        position:absolute;
+        left: 80px;
+        max-width: 35%;
+        max-height: 340px;
+        top: 1400px;
+    }
+
+    #pic6{
+        position:absolute;
+        left: 486px;
+        top: 1400px;
+        max-width: 35%;
+        max-height: 340px;
     }
 }
+/*////////////////////////////////////////////////////// */
