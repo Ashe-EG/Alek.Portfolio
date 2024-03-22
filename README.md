@@ -6,6 +6,7 @@
 future employers and co-workers to see my work and experience.
 
 
+![Opera Snapshot_2024-03-21_205938_ashe-eg github io](https://github.com/Ashe-EG/Alek.Portfolio/assets/159828542/54f4af9d-048d-48bb-92cd-e35370f54ed0)
 
 
 
